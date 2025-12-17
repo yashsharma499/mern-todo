@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 
-const API = "http://localhost:5000/todos";
+const API = "https://todo-backend-snrj.onrender.com/todos";
 
 export default function App() {
   const [task, setTask] = useState("");
